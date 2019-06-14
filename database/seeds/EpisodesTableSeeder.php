@@ -13,7 +13,7 @@ class EpisodesTableSeeder extends Seeder
     public function run()
     {
         //
-        Episode::create([
+        $episodio1=Episode::create([
             'patient_id'=>1,
             'doctor_id'=>1,
             //'estado'=>2,
@@ -24,6 +24,17 @@ class EpisodesTableSeeder extends Seeder
             'fecha_activacion'=>null,
             'fecha_fin'=>null,
 
+
+        ]);
+
+
+        $medicalIncomeEpi1=\App\MedicalIncome::create([
+            'episode_id'=>$episodio1->id,
+            'doctor_id'=>1,
+            'medical_report_id'=>null,
+            'fecha'=>'2019-06-14',
+            'hora'=>null,
+            'comentarios'=>null,
 
         ]);
 
