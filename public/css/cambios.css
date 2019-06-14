@@ -1,0 +1,65 @@
+.cabezera p{
+    font-size: 13px;
+    margin: 2px;
+}
+.titulo{
+    font-size: 18px;
+    text-decoration: underline;
+
+}
+.subtitulo{
+    font-size: 13px;
+    margin: 0;
+
+}
+.signos-vitales p{
+    display: inline-block;
+    margin-right: 20px;
+
+
+}
+
+.logo img{
+    width: 190px;
+}
+.cont-formu{
+    display: inline;
+}
+.formu{
+    background: red;
+    width: 20%;
+    display: inline;
+
+}
+
+.label-per{
+    display: inline;
+}
+
+.ipt{
+    width: 10%;
+    margin: 4px;
+}
+
+.title-psico{
+    font-size: 11px;
+}
+
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+ul.pagination li {
+    display: inline;
+
+
+}
+ul.pagination li  {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+

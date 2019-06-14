@@ -1,0 +1,3 @@
+SELECT * FROM `recipes` WHERE episode_id=5 ORDER BY id desc limit 1 --- OBTENER LA ULTIMA RECETA DEL EPISODIO
+
+select re.id from recipes as re inner join episodes as epi ON re.episode_id = epi.id;
