@@ -27,7 +27,7 @@ class DatabaseSeeder extends Seeder
         $this->call(PsychologystShiftTableSeeder::class);
         $this->call(KinesiologyShiftTableSeeder::class);
         $this->call(HighTypeTableSeeder::class);
-        $this->call(MedicineSeeder::class);
+        $this->call(MedicineTableSeeder::class);
 
 
 

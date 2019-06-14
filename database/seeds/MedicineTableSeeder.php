@@ -3,7 +3,7 @@
 use Illuminate\Database\Seeder;
 use App\Medicine;
 
-class MedicineSeeder extends Seeder
+class MedicineTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
